@@ -1,7 +1,0 @@
-
-
-
-
-
-
-console.log('HELLO WORLD!');
