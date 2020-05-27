@@ -10,7 +10,7 @@ do {
     numbers.push(input);
     }
 
-    else if (input === null) {
+    else {
         for(let number of numbers) {
             total += number;
         }

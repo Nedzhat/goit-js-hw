@@ -4,7 +4,7 @@ const formatString = function(string) {
 
     if (stringCheck.length <= limitSimvol) {
       return stringCheck;
-    } else if (stringCheck.length > limitSimvol) {
+    } else  {
       stringCheck = stringCheck.slice(0, limitSimvol);
       
       return stringCheck + '...'; 

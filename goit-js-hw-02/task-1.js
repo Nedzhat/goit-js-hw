@@ -1,6 +1,6 @@
 const logItems = function(items) {
-    for(let i=1; i < items.length; i += 1) {
-        console.log(`${i} = ${items[i]}`);
+    for(let i=0; i < items.length; i += 1) {
+        console.log(`${i+1} = ${items[i]}`);
         
     }
 }
