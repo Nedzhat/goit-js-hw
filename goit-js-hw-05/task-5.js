@@ -52,7 +52,7 @@ class Car {
 
   drive(hours) {
     let totalDistance = 0;
-    if (this.isOn === true) {
+    if (this.isOn) {
       totalDistance = hours * this.speed;
       this.distance += totalDistance;
     } else console.log(`Включите двигатель!`);
